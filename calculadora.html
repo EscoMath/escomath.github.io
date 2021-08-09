@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="icon" href="./img/escomath2.png">    
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body onload="init()" class="body-calculadora body-contenedor">
+    <div class="planets">
+        <div class="img-contenedor">
+            <div class="img-contenedor-planeta">
+                <img src="./img/sol.jpeg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="sol" class="hidden-planet">
+            </div>
+            <div class="img-contenedor-planeta">
+                <img src="./img/mercurio.jpg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="mercurio" class="hidden-planet">
+            </div>
+            <div class="img-contenedor-planeta">
+                <img src="./img/venus.jpg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="venus" class="hidden-planet">
+            </div>
+            <div class="img-contenedor-planeta">
+                <img src="./img/marte.jpg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="marte" class="hidden-planet">
+            </div>
+
+        </div>
+    </div>
+    <div class="wrapper-container">
+        <h1>Calculadora Espacial</h1>
+        <hr/>
+
+        <span class="color-gray bold">Ingresa tu peso(kg)</span>
+        <div class="pantalla">
+            <!-- <input type="number" name="" id="resultado" value="0" /> -->
+            <span id="resultado"></span>
+        </div>
+
+
+        <div class="fila">
+            <input id="siete" type="button" value="7" />
+            <input id="ocho" type="button" value="8" />
+            <input id="nueve" type="button" value="9" />
+
+        </div>
+
+        <div class="fila">
+            <input id="cuatro" type="button" value="4" />
+            <input id="cinco" type="button" value="5" />
+            <input id="seis" type="button" value="6" />
+        </div>
+
+        <div class="fila">
+            <input id="uno" type="button" value="1" />
+            <input id="dos" type="button" value="2" />
+            <input id="tres" type="button" value="3" />
+        </div>
+
+        <div class="fila">
+            <input id="cero" type="button" value="0" />
+            <input id="punto" type="button" value="." />
+            <input id="reset" class="grey clear" type="button" value="AC" />
+        </div>
+
+        <div class="fila">
+            <input id="igual" class="orange" type="button" value="Calcular" />
+
+        </div>
+    </div>
+
+    <div class="planets">
+        <div class="img-contenedor">
+            <div class="img-contenedor-planeta">
+                <img src="./img/jupiter.jpg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="jupiter" class="hidden-planet">
+            </div>
+            <div class="img-contenedor-planeta">
+                <img src="./img/saturno.jpg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="saturno" class="hidden-planet">
+            </div>
+            <div class="img-contenedor-planeta">
+                <img src="./img/urano.jpg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="urano" class="hidden-planet">
+            </div>
+            <div class="img-contenedor-planeta">
+                <img src="./img/neptuno.jpg" alt="" class="hidden-planet">
+                <input type="text" value="" disabled id="neptuno" class="hidden-planet">
+            </div>
+
+        </div>
+    </div>
+    <a href="index.html" class="atras">Atràs</a>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="./js/calculadora.js"></script>
+</body>
+
+</html>
