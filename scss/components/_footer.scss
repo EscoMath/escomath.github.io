@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgba(51, 58, 68, 1);
+    background-color: rgb(45, 45, 46);
     padding: 2rem 0 0 0rem;
     text-align: center;
     color: #fff;
@@ -36,10 +36,21 @@
                 margin-left: -2.5rem;
             }
         }
+
+        .social-media {
+            color: gold;
+            a {
+                font-size: 2rem;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
     }
 
     .footer-bottom {
-        background-color:blue;
+        background-color:rgb(20, 20, 20);
         padding: 1rem;
     }
 }
